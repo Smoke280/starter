@@ -1,11 +1,14 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "name": "Pixel Studio",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#b3d1ed",
+    "light": "#d4e5f7",
+    "dark": "#516171"
+  },
+  "background": {
+    "decoration": "gradient"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -36,7 +39,7 @@
       "anchors": [
         {
           "anchor": "Documentação",
-          "href": "https://teste-a6ef1cd6.mintlify.app/boas-vindas",
+          "href": "/boas-vindas",
           "icon": "book-open-cover"
         },
         {
@@ -49,7 +52,8 @@
   },
   "logo": {
     "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "dark": "/logo/dark.svg",
+    "href": "/boas-vindas"
   },
   "navbar": {
     "links": [
