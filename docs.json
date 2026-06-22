@@ -11,24 +11,38 @@
   "navigation": {
     "pages": [
       {
-        "group": "Getting Started",
+        "group": "Comece por aqui!",
         "pages": [
-          "index",
-          "quickstart"
+          "boas-vindas",
+          "termos-de-uso",
+          "dicas"
+        ]
+      },
+        {
+        "group": "Nossos produtos",
+        "pages": [
+          {
+            "group": "PixelFx",
+            "root": "pixelfx/apresentacao",
+            "pages": [
+              "pixelfx/apresentacao",
+              "pixelfx/instalacao"
+            ]
+          }
         ]
       }
     ],
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
+          "anchor": "Documentação",
           "href": "https://mintlify.com/docs",
           "icon": "book-open-cover"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Discord",
+          "href": "https://discord.gg/qAQeuACgYs",
+          "icon": "discord"
         }
       ]
     }
@@ -40,33 +54,14 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Suporte",
+        "href": "https://discord.gg/qAQeuACgYs"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
-    }
-  },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
     ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "discord": "https://discord.gg/qAQeuACgYs"
     }
   }
 }
